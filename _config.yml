@@ -6,9 +6,9 @@ header-img: img/post-bg-desk.jpg
 email: 447096230@qq.com
 description: "前端想说爱你不容易"
 keyword: "TJ, TJ Blog, 正汉的博客, tangzhenghan, 唐正汉, javascript, React, 前端"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+url: "https://jasontang123.github.io/tangzhenghan.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://jasontang123.github.io/tangzhenghan.github.io" # you code repository
 
 
 # Sidebar settings
