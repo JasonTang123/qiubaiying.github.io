@@ -2,7 +2,7 @@
 
 title: TJ Blog
 SEOTitle: 正汉的博客 | TJ Blog
-header-img: img/post-bg-rwd.jpg
+header-img: img/post-bg-miui6.jpg
 email: 447096230@qq.com
 description: "前端想说爱你不容易"
 keyword: "TJ, TJ Blog, 正汉的博客, tangzhenghan, 唐正汉, javascript, React, 前端"
@@ -95,17 +95,17 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "AlloyTeam",
+        href: "http://www.alloyteam.com/"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "简书·唐正汉",
+        href: "http://www.jianshu.com/u/bc266502f593"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "Webpack",
+        href: "https://doc.webpack-china.org/"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "React",
+        href: "https://reactjs.org/"
     }
 ]
 
