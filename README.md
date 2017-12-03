@@ -131,7 +131,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 	
 
 ![](http://ww4.sinaimg.cn/large/006tKfTcgy1fgrgbgf77aj308i02v748.jpg)
-
+ 
 ### Friends
 
 好友链接部分。这会在全部页面显示。
