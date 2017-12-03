@@ -1,4 +1,5 @@
 # Site settings
+
 title: TJ Blog
 SEOTitle: 正汉的博客 | TJ Blog
 header-img: img/post-bg-desk.jpg
@@ -13,7 +14,7 @@ github_repo: "https://jasontang123.github.io/tangzhenghan.github.io" # you code 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "致力于前端工程化"
-sidebar-avatar: https://jasontang123.github.io/tangzhenghan.github.io/img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
 
 
 
