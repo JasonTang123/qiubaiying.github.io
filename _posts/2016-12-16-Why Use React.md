@@ -6,6 +6,7 @@ date:       2016-12-16
 author:     TJ
 header-img: img/post-bg-react.png
 catalog: true
+comments: true
 tags:
     - javascript
     - React
