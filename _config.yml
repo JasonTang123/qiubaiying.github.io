@@ -13,7 +13,7 @@ github_repo: "tangzhenghan.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "致力于前端工程化"
+sidebar-about-description: "do {前端工程化()} while('前端'!== '抠图仔'){不断努力()}"
 
 
 
