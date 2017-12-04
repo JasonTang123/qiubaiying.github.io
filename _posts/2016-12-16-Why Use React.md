@@ -4,7 +4,7 @@ title:      Why Use React
 subtitle:   拒绝单纯追风跟浪，弄清原理背后事实真相
 date:       2016-12-16
 author:     TJ
-header-img: img/post-bg-react.jpg
+header-img: img/post-bg-react.png
 catalog: true
 tags:
     - javascript
