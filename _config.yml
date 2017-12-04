@@ -117,7 +117,11 @@ friends: [
     },
     {
         tilte: 'NodeJS',
-        href : "https://segmentfault.com/u/tangzhenghan"
+        href : "http://nodejs.cn/"
+    },
+    {
+        title: "npm",
+        href: "https://www.npmjs.com/"
     }
 ]
 
