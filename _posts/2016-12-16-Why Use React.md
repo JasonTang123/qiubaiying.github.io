@@ -1,14 +1,14 @@
 ---
 layout:     post
-title:      ReactiveCocoa 进阶
-subtitle:   函数式编程框架 ReactiveCocoa 进阶
-date:       2017-01-06
-author:     BY
-header-img: img/post-bg-ios9-web.jpg
+title:      Why Use React
+subtitle:   拒绝单纯追风跟浪，弄清原理背后事实真相
+date:       2016-12-16
+author:     TJ
+header-img: img/post-bg-react.jpg
 catalog: true
 tags:
-    - iOS
-    - ReactiveCocoa
+    - javascript
+    - React
     - 函数式编程
     - 开源框架
 ---
