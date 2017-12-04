@@ -24,7 +24,7 @@ RSS: false
 github_username:    JasonTang123
 #facebook_username:  baiying.qiu.7
 jianshu_username:   bc266502f593
-
+Stackoverflow_username : tangzhenghan
 
 
 
@@ -110,6 +110,14 @@ friends: [
     {
         title: 'Redux',
         href: "https://egghead.io/courses/getting-started-with-redux"
+    },
+    {
+        title: "Stackoverflow",
+        href: "https://segmentfault.com/u/tangzhenghan"
+    },
+    {
+        tilte: 'NodeJS',
+        href : "https://segmentfault.com/u/tangzhenghan"
     }
 ]
 
