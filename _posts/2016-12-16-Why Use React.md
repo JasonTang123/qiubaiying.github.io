@@ -14,12 +14,9 @@ tags:
     - 开源框架
 ---
 # 前言
+>如果说2014年时术语MVVM,属于Angular的，那么2015年称为React元年并不为过，Factbook的开发团队不断完善以及React社区井喷式的发展让这个诞生于2013年的框架及其生态日趋成熟，大量团队在生产环境中的实践让React不再是一件需要不断前瞻后顾的事情,如果React合适你或许还有几件事情你也应该知道。
 
->在[上篇文章](http://qiubaiying.github.io/2016/12/26/ReactiveCocoa-基础/)中介绍了**ReactiveCocoa**的基础知识,接下来我们来深入介绍**ReactiveCocoa**及其在**MVVM**中的用法。
-
-
-![ReactiveCocoa进阶思维导图](https://ww3.sinaimg.cn/large/006y8lVagw1fbgye3re5xj30je0iomz8.jpg)
-# 常见操作方法介绍
+# 
 
 
 #### 操作须知
