@@ -11,7 +11,7 @@ tags:
     - javascript
 ---
 
-#让我们从构造函数创建对象开始说起
+# 让我们从构造函数创建对象开始说起
 ----
 
     function Person() {
@@ -25,7 +25,7 @@ tags:
 
 很简单吧，接下来进入正题：
 
-#prototype
+# prototype
 ----
 每个函数都有一个 prototype 属性，就是我们经常在各种例子中看到的那个 prototype ，比如：
 
@@ -55,7 +55,7 @@ tags:
 
 那么我们该怎么表示实例与实例原型，也就是 person 和 Person.prototype 之间的关系呢，这时候我们就要讲到第二个属性：
 
-#__proto__
+# __proto__
 ----
 这是每一个JavaScript对象(除了 null )都具有的一个属性，叫__proto__，这个属性会指向该对象的原型。
 
@@ -93,7 +93,7 @@ tags:
 
 了解了构造函数、实例原型、和实例之间的关系，接下来我们讲讲实例和原型的关系：
 
-#实例与原型
+# 实例与原型
 ----
 当读取实例的属性时，如果找不到，就会查找与对象关联的原型中的属性，如果还查不到，就去找原型的原型，一直找到最顶层为止。
 
@@ -119,7 +119,7 @@ tags:
 
 但是万一还没有找到呢？原型的原型又是什么呢？
 
-#原型的原型
+# 原型的原型
 ----
 在前面，我们已经讲了原型也是一个对象，既然是对象，我们就可以用最原始的方式创建它，那就是：
 			
@@ -130,7 +130,7 @@ tags:
 所以原型对象是通过 Object 构造函数生成的，结合之前所讲，实例的 __proto__ 指向构造函数的 prototype ，所以我们再更新下关系图：
 ![图4](https://raw.githubusercontent.com/mqyqingfeng/Blog/master/Images/prototype4.png)
 
-#原型链
+# 原型链
 ----
 那 Object.prototype 的原型呢？
 
@@ -151,7 +151,7 @@ null，我们可以打印：
 
 顺便还要说一下，图中由相互关联的原型组成的链状结构就是原型链，也就是蓝色的这条线。
 
-#补充
+# 补充
 ----
 最后，补充三点大家可能不会注意的地方：
 ##constructor
@@ -166,7 +166,7 @@ null，我们可以打印：
 		
 		person.constructor === Person.prototype.constructor
 		
-##__proto__
+## __proto__
 其次是 __proto__ ，绝大部分浏览器都支持这个非标准的方法访问原型，然而它并不存在于 Person.prototype 中，实际上，它是来自于 Object.prototype ，与其说是一个属性，不如说是一个 getter/setter，当使用 obj.__proto__ 时，可以理解成返回了 Object.getPrototypeOf(obj)。
 
 ##真的是继承吗？
