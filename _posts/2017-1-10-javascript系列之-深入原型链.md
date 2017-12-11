@@ -10,7 +10,10 @@ comments: true
 tags:
     - javascript
 ---
+
 #让我们从构造函数创建对象开始说起
+----
+
     function Person() {
 
     }
