@@ -116,7 +116,7 @@ Promise实例生成以后，可以用then方法分别指定Resolved状态和Reje
 			}, function(value) {
 			// failure
 		})
-			
+
 ## 用法辨析
 ____
 比如说经典的Ajax用例，就是异步的:
@@ -129,8 +129,8 @@ ____
 			xhr.open('GET', url, true);
 			xhr.onload = function (e) {
 			if (this.status === 200) {
-           result = JSON.parse(this.responseText);
-           resolve(result);
+             result = JSON.parse(this.responseText);
+             resolve(result);
          }
 	       };
 	          xhr.onerror = function (e) {
