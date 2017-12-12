@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      Javascript系列之-深入原型链
-subtitle:   拒绝单纯追风跟浪，弄清原理背后事实真相
-date:       2016-12-16
+subtitle:  	做为一名javascript开发者你应该知道的事...
+date:       2017-01-10
 author:     TJ
 header-img: img/post-bg-js-version.jpg
 catalog: true
