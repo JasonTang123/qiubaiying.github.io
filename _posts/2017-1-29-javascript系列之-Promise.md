@@ -94,19 +94,16 @@ Promise对象使用then方法添加回调函数。then方法可以接受两个�
 				} catch (error) {
 				console.error(error);
 				}					
-# Promise对象的生成
-____
-ES6提供了原生的Promise构造函数，用来生成Promise实例。
-下面代码创造了一个Promise实例.
+				# Promise对象的生成____ES6提供了原生的Promise构造函数，用来生成Promise实例,下面代码创造了一个Promise实例.
 			
-			var promise = new Promise(function(resolve, reject) {
-			// 异步操作的代码
-			if (/* 异步操作成功 */){
-			resolve(value);
-			} else {
-			reject(error);
-			}
-			});
+				var promise = new Promise(function(resolve, reject) {
+				// 异步操作的代码
+				if (/* 异步操作成功 */){
+				resolve(value);
+				} else {
+				reject(error);
+				}
+				});
 
 Promise构造函数接受一个函数作为参数，该函数的两个参数分别是resolve和reject。它们是两个函数，由JavaScript引擎提供，不用自己部署。
 
@@ -118,7 +115,8 @@ Promise实例生成以后，可以用then方法分别指定Resolved状态和Reje
 			// success
 			}, function(value) {
 			// failure
-		})	
+		})
+			
 ## 用法辨析
 ____
 比如说经典的Ajax用例，就是异步的:
@@ -134,17 +132,17 @@ ____
            result = JSON.parse(this.responseText);
            resolve(result);
          }
-       };
-          xhr.onerror = function (e) {
-          reject(e);
-         };
-          xhr.send();
-      });
+	       };
+	          xhr.onerror = function (e) {
+	          reject(e);
+	         };
+	          xhr.send();
+	      });
 
-          return p;
-     }
+	          return p;
+	     }
 
-         search("Hello World").then(console.log, console.error);
+	         search("Hello World").then(console.log, console.error);
          
 # 小结
 ____
